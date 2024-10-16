@@ -13,8 +13,8 @@ public class Main
         System.out.print(words);
 
         
-        words= words.isWordChain();
-        System.out.print(words);
+        WordChecker x = new WordChecker();
+        System.out.print(x.isWordChain());
 
     }
 }
