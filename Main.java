@@ -11,8 +11,6 @@ public class Main
         words.add("band");
         words.add("abandon");
         System.out.print(words);
-
-        
         WordChecker x = new WordChecker();
         System.out.print(x.isWordChain());
 
